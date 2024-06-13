@@ -1,0 +1,23 @@
+@media (max-width: 992px) { 
+  nav{
+    padding: 20px 0!important;
+  }
+  nav .navbar-toggler{
+    border: none;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  #hero .container h4{
+    padding-top: 37px;
+  }
+  #hero .container h1{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "PT Sans", sans-serif;
+    color: #353535;
+}
+  #hero .container .btn-dwnd button{
+    margin: 0 !important;
+   padding: 8px 20px !important; 
+  }
+}
