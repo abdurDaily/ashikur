@@ -101,3 +101,61 @@ nav ul li a{
     margin-top: 70px;
 }
 /* =============== HERO CSS END ======================*/
+
+
+#timeline .title{                
+    border-right: 1px dashed #7A7A7A;
+    padding: 21px 90px 100px 0;
+    position: relative;
+}
+#timeline .title p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+#timeline .contains h4{
+    font-weight: 600;
+font-size: 24px;
+line-height: 180%;
+color: #353535;
+}
+#timeline .contains p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+#timeline .title h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+#timeline .title::after {
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px dashed #7A7A7A;
+    top: -25px;
+    right: -21px;
+    background-color: #fff;
+}
+
+#timeline .title::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -14px;
+    right: -11px;
+    background-color: #940707;
+    z-index: 55;
+}
+#timeline .sub-timeline:nth-child(odd) .title::before {
+    background-color: #179407;
+
+}

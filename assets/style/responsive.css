@@ -20,4 +20,32 @@
     margin: 0 !important;
    padding: 8px 20px !important; 
   }
+
+  #timeline .container{
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+    /* background-color: rebeccapurple; */
+    padding-left: 30px;
+    border-left: 1px dashed #7A7A7A;
+  
+  }
+  #timeline .sub-timeline{
+    padding-bottom: 50px;
+  }
+  #timeline .sub-timeline .title{
+    border: none;
+    padding-bottom: 21px;
+    padding-left: 12px;
+  }
+  #timeline .sub-timeline .title::after{
+    left: -38px ;
+  }
+  #timeline .sub-timeline .title::before{
+    left: -26.5px;
+  }
+
+
 }
+
+
